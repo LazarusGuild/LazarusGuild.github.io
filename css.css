@@ -1,0 +1,80 @@
+body {
+  background-image: url("Lazarus Logo Background fade.png"), url("tileable_wood_texture.png");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed, fixed;
+  background-position: center;
+  color: #000000;
+  font-family: 'Comfortaa', cursive;
+  overflow-y: scroll
+}
+
+.weeklynews {
+  background-color: lightgray;
+}
+
+.weeklynews img {
+  width: 100%;
+  height: auto;
+}
+
+.navigation {
+  margin: 0 auto;
+  background-color: lightgrey;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navlogo {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titlecentre {
+  text-align: center;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.navigation a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation a:hover {
+  color: #C89A14;
+}
+
+.container {
+  opacity: 0.5;
+  background-color: lightgray;
+  color: #000000;
+}
+
+.footer {
+  text-align: center;
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.padding10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.margin0 {
+  margin: 0px;
+}

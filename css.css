@@ -9,7 +9,7 @@ body {
 }
 
 .weeklynews {
-  background-color: lightgray;
+  border: 1px solid black;
 }
 
 .weeklynews img {
@@ -53,12 +53,6 @@ body {
 
 .navigation a:hover {
   color: #C89A14;
-}
-
-.container {
-  opacity: 0.5;
-  background-color: lightgray;
-  color: #000000;
 }
 
 .footer {
